@@ -54,9 +54,41 @@
 
 ####Staging Area
     - add files to staging area and then when ready to commit, git commit bundles all files into single commit
+    - new concepts: git init git add git status staging area working directory
+    -
+
+####How to write a commit message
+    - You can also specify a commit message via the command line by running git commit -m "Commit message"
+    - Use the udacity git style guide for reference.
+    - Message Structure:
+        - type: subject
+            - feat, fix, docs, style, refactor, test, chore
+            -  (subject is optional and only used when a commit requires a bit of explanation and context. Use the body to explain the what and why of a commit, not the how)
+        - footer (The footer is optional and is used to reference issue tracker IDs.)
+
+####
+    -
     -
     -
 
+####
+    -
+    -
+    -
+
+####
+    -
+    -
+    -
+####
+    -
+    -
+    -
+
+####
+    -
+    -
+    -
 ####
     -
     -

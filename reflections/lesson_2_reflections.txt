@@ -8,8 +8,14 @@ Why do you need to do it?
 without the .git file, we won't be able to track changes in the repo using git.
 
 
+How is the staging area different from the working directory and the repository?
 
+The staging area is where you put files you are ready to add or remove to a commit
 
+What value do you think it offers?
+
+It's value is to allow you to make multiple changes to a variety of files that might be
+contained in a conceptual change to the codebase.
 
 
 
