@@ -1,0 +1,68 @@
+#VERSION CONTROL
+
+##How to Use Git and GitHub
+
+####Course Overview
+    - Lesson 1: Why version control? install git and read-only usage.
+    - Lesson 2: read and write git
+    - Lesson 3: share and collaborate
+
+###LESSON 1###
+
+####Differences between two files
+    - automatically compare files...
+    - mac/linux...built in tool: diff (stands for difference)
+    - diff -u (u stands for unified diff format and makes the difference file easier to read)
+
+
+####Version Control - Creating a Concept Map
+    - Manually, Dropbox, Google Dox, SVN, CVS, Mercurial, Git
+    - commit concept - part of git
+    - View the history of file:
+        - git log: lists every commit that file has had starting with most recent
+    - git diff: compares differences in the same file (plus with color!)
+
+####Commits and Tracking across multiple files
+    - How often?  Make on commit per logical change
+    - Don't group different changes in a single commit
+    - groups of files called a repository
+    - a snapshot of your entire repo at the time of commit
+    - git log --stat (gives stats on each commit,
+        which files were affected symbolized by +++=-----)
+    - can git diff commits by ref commit id
+
+####Clone a Repository
+    - git clone - followeb by url
+    - to get colored diffs command:  git config --global color.ui auto
+
+####Git Errors and Warnings
+    - Octopus is a strategy git uses to combine many different versions of code together.
+    - HEAD is the commit I am currently on, detaching the HEAD means switching to a previous
+    commit.
+
+####Git Workspace
+    - git diff originalfile newfile
+
+
+###LESSON 2###
+
+####Repositories
+    -hidden files and dirs....dot files hide from users.  ls - a (will show hidden files)
+    -Initializing a Repo:
+    - Each Git repository is tied to a specific directory - the directory where you ran git init. Only files from that directory (and subdirectories inside that directory) will be contained in that repository, and you can have different repositories in different directories.
+    - git init doesnt create a commit
+
+####Staging Area
+    - add files to staging area and then when ready to commit, git commit bundles all files into single commit
+    -
+    -
+
+####
+    -
+    -
+    -
+
+####
+    -
+    -
+    -

@@ -1,0 +1,18 @@
+What happens when you initialize a repository?
+
+it adds the .git configuration file to the repo.
+
+
+Why do you need to do it?
+
+without the .git file, we won't be able to track changes in the repo using git.
+
+
+
+
+
+
+
+
+
+
