@@ -62,13 +62,16 @@
     - Use the udacity git style guide for reference.
     - Message Structure:
         - type: subject
+            - type (also use imperative Add, Change, etc.)
             - feat, fix, docs, style, refactor, test, chore
             -  (subject is optional and only used when a commit requires a bit of explanation and context. Use the body to explain the what and why of a commit, not the how)
         - footer (The footer is optional and is used to reference issue tracker IDs.)
 
-####
-    -
-    -
+####git diff revisited
+    - to view differences btwn two commits in repo, use git diff id1 id2
+    - to view differences btwn working dir and staging area, use git diff
+    - to view diffs btwn staging area and repo, use git diff --staged
+    - git reset --hard resets changes to both working dir and staging area (but be careful...cant get changes back!).
     -
 
 ####

@@ -17,6 +17,10 @@ What value do you think it offers?
 It's value is to allow you to make multiple changes to a variety of files that might be
 contained in a conceptual change to the codebase.
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+Since a logical change can often incorporate many changes in several files, having a storehouse containing all those changes before commiting is handy.
+
 
 
 
