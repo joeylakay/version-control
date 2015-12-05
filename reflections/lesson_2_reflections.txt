@@ -30,3 +30,23 @@ How would branches help?
 By separating the diffences and test code, we can leave a working application untouched while testing improvements and revisions.
 
 
+How do the diagrams help you visualize the branch structure?
+
+
+Since branching and reachability is sometimes non-linear, it is easier to visually represent the map of the commit history.
+
+
+What is the result of merging two branches together?
+
+combining all changes and commit info to the codebase into a single merged branch.
+
+Why do we represent it in the diagram the way we do?
+
+it is analogous to a tree growing and diverging and re-merging.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+pros...identifies all changes between your branch and the other branch.  cons...sometimes the alerts will happen on code that isn't a conflict.
+
+
+

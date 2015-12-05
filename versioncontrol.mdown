@@ -84,26 +84,27 @@
     - git branch (no arguments) view all branches
     - git branch branchname (create new branch with that arguement as name)
     - but this will not checkout the new branch....so I then need to do git checkout branchname
-####
+####Branching for Collaboration
+    -to help visualize commits on a branch: git log --graph --oneline branch branch
+    - git commit has a parent and only knows where it came from, not about other branches.
+    - git log traces back to a commit that doesn't have a parent.
+    - git checkout -b new_branch_name
+
+####Combining Simple Files
+    -git show....will diff a file to it's parent
+    -git merge master coins to merge those branches
     -
+####Merge Conficts
+    -might have to review this section
     -
     -
 
-####
-    -
-    -
-    -
-####
-    -
+####Staging area pattern
+    -try staging the thing I definitely want to commit and then can keep working on the file and incorporate 2nd changes if relevant.
     -
     -
 
-####
-    -
-    -
-    -
-
-####
+####LESSON 3: Using Github
     -
     -
     -
