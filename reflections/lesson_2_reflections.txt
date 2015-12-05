@@ -21,8 +21,12 @@ How can you use the staging area to make sure you have one commit per logical ch
 
 Since a logical change can often incorporate many changes in several files, having a storehouse containing all those changes before commiting is handy.
 
+What are some situations when branches would be helpful in keeping your history organized?
 
+When I want to make an experimental change from the master branch or create different version of the application.
 
+How would branches help?
 
+By separating the diffences and test code, we can leave a working application untouched while testing improvements and revisions.
 
 

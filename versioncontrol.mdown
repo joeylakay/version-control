@@ -74,6 +74,63 @@
     - git reset --hard resets changes to both working dir and staging area (but be careful...cant get changes back!).
     -
 
+####Branching
+    -labels for commits (main branch usually called master branch )
+    - current last commit of a branch is called the tip
+    - combining two commits is a merge.
+
+####Making a Branch
+    - git branch command to create and view branches
+    - git branch (no arguments) view all branches
+    - git branch branchname (create new branch with that arguement as name)
+    - but this will not checkout the new branch....so I then need to do git checkout branchname
+####
+    -
+    -
+    -
+
+####
+    -
+    -
+    -
+####
+    -
+    -
+    -
+
+####
+    -
+    -
+    -
+
+####
+    -
+    -
+    -
+
+####
+    -
+    -
+    -
+####
+    -
+    -
+    -
+
+####
+    -
+    -
+    -
+####
+    -
+    -
+    -
+
+####
+    -
+    -
+    -
+
 ####
     -
     -
