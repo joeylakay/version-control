@@ -105,9 +105,9 @@
     -
 
 ####LESSON 3: Using Github
-    -
-    -
-    -
+    -syncing repos:  create an empty repo
+    - remote repos (remotes) can push and pull data specify branch
+    -push master...
 
 ####
     -
