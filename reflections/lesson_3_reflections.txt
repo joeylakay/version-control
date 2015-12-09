@@ -20,6 +20,10 @@ What is the benefit of having a copy of the last known state of the remote store
 
 You can track changes that collaborators made to the remote and then fetch in order to merge their changes into your local repo.
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+I would have to communicate every change with my collaborators, so making individual changes would be easier but merging my changes with other peoples' would be very complicated.
+
 
 
 

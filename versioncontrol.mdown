@@ -135,13 +135,13 @@
     - git will report a conflict which I must manually resolve by editing chili file.
     -After resolving conflict, I need to git add chili-recipe.txr and then git commit.
 
-####
-    -
-    -
+####Fast Forward Merges
+    - this type of merge occurs when you merge two commits where one is an ancestor of the other. once commit is reachable by another.
+    - Taking the label from the history of a branch somewhere in its ancestory and moving that label forward to the tip of the branch.
     -
 
-####
-    -
+####Pull requests on Github
+    -To push a different branch to github for collab outside of remote master, make changes, commit and then do a git push origin newremotebranchname (in this case, it's different-oil).
     -
     -
 ####
