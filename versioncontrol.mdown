@@ -109,28 +109,31 @@
     - remote repos (remotes) can push and pull data specify branch
     -push master...
 
-####
+####Editing Files on GitHub
     -
     -
     -
-####
+####Forking a repo on Github
+    - git clone into your own account remote repo on github (forking)
+    - then pull down code on your own machine with git clone from your fork
+    - then links back to original repo you forked from
+    - branches happen on a single repo
+    - clone involves taking an existing repo and making one just like it somewhere else.
     -
+
+####Conflicting Collaboration
+    - merge local and remote branches
+    - merging remote changes - local copies of remote branches
+    - git fetch to get a local copy of the changed origin without losing your changes to your version of the master.  Basically makes a new branch.
+####Merging Remote Changes
+    -git fetch origin /  git branch -a / git diff origin/master master
     -
     -
 
-####
-    -
-    -
-    -
-####
-    -
-    -
-    -
-
-####
-    -
-    -
-    -
+#### Local Copies of Remote Branches Solution
+    -git merge localmaster origin/master
+    - git will report a conflict which I must manually resolve by editing chili file.
+    -After resolving conflict, I need to git add chili-recipe.txr and then git commit.
 
 ####
     -
